@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCSimpleAlert_Example' do
+  pod 'CCSimpleAlert', :path => '../'
+
+  target 'CCSimpleAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
